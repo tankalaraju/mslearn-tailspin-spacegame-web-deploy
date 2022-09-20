@@ -3,7 +3,7 @@ trigger:
 pool:
   name: 'MyAgentPool'
   demands:
-  - npm 
+  - npm nodesjs
 variables:
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
