@@ -2,9 +2,7 @@ trigger:
 - '*'
 
 pool:
-  name: 'MyAgentpool'
-  demands:
-  - maven
+  name: 'MyAgentPool'
 
 variables:
   buildConfiguration: 'Release'
